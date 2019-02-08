@@ -48,7 +48,7 @@ h6 {
 }
 h1 {
     font-size: 4.242rem;
-    line-height: 4.5rem;
+    line-height: 4.4rem;
     margin-top: 3rem;
 }
 h2 {
@@ -131,7 +131,13 @@ blockquote footer {
 
     main {
         width: 100%;
-    }
+	}
+	
+	h1 {
+		font-size: 22vw;
+		line-height: 20vw;;
+		margin-top: 3rem;
+	}
 }
 
 .social {
