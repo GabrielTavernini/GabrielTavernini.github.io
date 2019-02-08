@@ -1,0 +1,176 @@
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 137.5%;
+    -webkit-font-smoothing: antialiased;
+}
+/* Copy & Lists */
+p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+    line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+}
+h1 {
+    font-size: 4.242rem;
+    line-height: 4.5rem;
+    margin-top: 3rem;
+}
+h2 {
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+h3 {
+    font-size: 1.414rem;
+}
+h4 {
+    font-size: 0.707rem;
+}
+h5 {
+    font-size: 0.4713333333333333rem;
+}
+h6 {
+    font-size: 0.3535rem;
+}
+/* Tables */
+table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+table td,
+table th {
+    padding: 0;
+    line-height: 33px;
+}
+/* Code blocks */
+code {
+    vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead {
+    font-size: 1.414rem;
+}
+/* Hug the block above you */
+.hug {
+    margin-top: 0;
+}
+main {
+    width: 590px;
+    margin: 0 auto;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+blockquote a {
+	color: #222;
+	text-decoration: none;
+}
+
+blockquote a:hover, a:focus {
+	color: #666;
+}
+
+blockquote p:before {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+blockquote p:after {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+blockquote footer {
+    color: #888;
+}
+
+@media only screen and (max-width: 812px) {
+    body {
+        margin: 16px;
+    }
+
+    main {
+        width: 100%;
+    }
+}
+
+.social {
+    margin: 30px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #555;
+    overflow: hidden;
+}
+.social a {
+    color: inherit;
+    text-decoration: none;
+}
+.social i {
+    margin: 0.3em;
+    cursor: pointer;
+    transition: color 300ms ease, transform 300ms ease;
+    transform: translateZ(0);
+}
+.social i:hover {
+    margin-top: -1px;
+}
+.social i#twitter:hover {
+    transform: translate(0, -15px);
+    color: #1da1f2;
+}
+.social i#github:hover {
+    transform: translate(0, -15px);
+    color: #000000;
+}
+.social i#reddit:hover {
+    transform: translate(0, -15px);
+    color: #ff4500;
+}
+.social i#instagram:hover {
+    transform: translate(0, -15px);
+    color: #3b5998;
+}
+.social i#mail:hover {
+    transform: translate(0, -15px);
+    color: #d14836;
+}
