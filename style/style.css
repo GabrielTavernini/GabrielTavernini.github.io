@@ -4,7 +4,9 @@ html {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
         Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 137.5%;
-    -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	background:#1f252f;
+	color: #eee;
 }
 /* Copy & Lists */
 p {
@@ -102,12 +104,12 @@ blockquote {
 }
 
 blockquote a {
-	color: #222;
+	color: #ccc;
 	text-decoration: none;
 }
 
 blockquote a:hover, a:focus {
-	color: #666;
+	color: #999;
 }
 
 blockquote p:before {
@@ -144,7 +146,7 @@ blockquote footer {
     margin: 30px;
     text-align: center;
     font-size: 2.5em;
-    color: #555;
+    color: #aaa;
     overflow: hidden;
 }
 .social a {
