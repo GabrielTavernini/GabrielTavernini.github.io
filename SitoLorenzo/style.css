@@ -121,3 +121,8 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+p a {
+	text-decoration: underline;
+	color: -webkit-link;
+}
