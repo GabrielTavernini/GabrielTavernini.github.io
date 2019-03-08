@@ -79,6 +79,7 @@
 		</blockquote>
 
 
+		<a name="end"></a>
 		<section>
 			<h1>Links</h1>
 			<div class="social">
@@ -99,7 +100,26 @@
 				</a>
 			</div>
 		</section>
+
+
+		<a id="floating" class="float" href="#end"><i class="fa fa-2x fa-caret-down"></i></a>
 	</main>
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			var scrollPosition = (document.body.scrollTop || document.documentElement.scrollTop);
+			var windowSize = window.innerHeight;
+			var bodyHeight = document.body.offsetHeight;
+
+			var position = Math.max(bodyHeight - (scrollPosition + windowSize), 0);
+			if (position > 70 * Math.floor(633 /document.body.offsetWidth))
+				document.getElementById("floating").style.display = "block";
+			else
+				document.getElementById("floating").style.display = "none";
+		
+		}
+	</script>
 </body>
 
 </html>

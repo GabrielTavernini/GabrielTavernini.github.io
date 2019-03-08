@@ -1,6 +1,7 @@
 /*! Typebase.less v0.1.0 | MIT License */
 /* Setup */
 html {
+	scroll-behavior: smooth;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
         Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 137.5%;
@@ -181,4 +182,22 @@ blockquote footer {
 .social i#mail:hover {
     transform: translate(0, -15px);
     color: #d14836;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#eee;
+	color:#141920;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #141920;
+}
+
+.float i {
+	margin-top:10px;
 }
