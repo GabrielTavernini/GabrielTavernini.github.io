@@ -11,6 +11,7 @@ html {
 }
 /* Copy & Lists */
 p {
+		text-align: justify;
     line-height: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
@@ -95,7 +96,7 @@ code {
     margin-top: 0;
 }
 main {
-    width: 590px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -105,7 +106,7 @@ blockquote {
 }
 
 blockquote a {
-	color: #ccc;
+	color: #ddd;
 	text-decoration: none;
 }
 
@@ -135,7 +136,7 @@ blockquote footer {
     main {
         width: 100%;
 	}
-	
+
 	h1 {
 		font-size: 22vw;
 		line-height: 20vw;;
