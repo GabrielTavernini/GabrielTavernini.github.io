@@ -1,0 +1,15 @@
+type,difficulty,learned\_before,completeness,class: proper\_question
+math,hard,yes,poor,no
+chemistry,hard,no,good,no
+language,hard,yes,good,yes
+language,medium,no,poor,yes
+math,easy,yes,poor,yes
+language,easy,no,good,no
+chemistry,easy,yes,poor,yes
+math,medium,no,poor,no
+math,easy,yes,poor,yes
+chemistry,medium,no,poor,yes
+language,medium,yes,good,yes
+math,medium,no,poor,yes
+chemistry,hard,yes,good,yes
+math,medium,yes,poor,no
